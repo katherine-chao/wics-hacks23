@@ -10,7 +10,12 @@ body {
 
 .siteName{
   color:blue;
-  
+}
+
+.emailLink{
+  background-color: white;
+  padding: 1%;
+  color: black;
 }
 
 button {

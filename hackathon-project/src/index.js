@@ -8,7 +8,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1 className="siteName"> WGAP </h1>
-        <button onClick={() => window.location = 'mailto:kat2chao@gmail.com'}>Contact Me</button>
+        <a className="emailLink" href="mailto:hello@hello.com?subject=Email Subject&body=Hi Bob ">Email Your Rep</a>
+        {/* <button onClick={() => window.location = 'mailto:kat2chao@gmail.com'}>Contact Me</button> */}
        
       </div>
 
